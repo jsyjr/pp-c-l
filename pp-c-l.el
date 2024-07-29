@@ -144,8 +144,7 @@ Don't forget to mention your Emacs and library versions."))
 ;;;###autoload
 (defface pp^L-highlight
     (if (> emacs-major-version 21)
-        '((((type x w32 mac graphic) (class color))
-           (:box (:line-width 3 :style pressed-button)))
+        '((((type x w32 mac graphic) (class color)))
           (t (:inverse-video t)))
       '((((type x w32 mac graphic) (class color))
          (:foreground "Blue" :background "DarkSeaGreen1"))
